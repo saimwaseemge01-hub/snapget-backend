@@ -73,3 +73,10 @@ if __name__ == '__main__':
     # os.environ.get('PORT') hosting provider ka port uthayega
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
+
+# Baaki saara code upar rehne do...
+
+app = app # Ye line lazmi add karo Flask app ke liye
+
+if __name__ == "__main__":
+    app.run()
